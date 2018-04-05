@@ -1,22 +1,22 @@
-The Python interpreter is usually installed as /usr/local/bin/python3.6 on those machines where it is available; putting /usr/local/bin in your Unix shell’s search path makes it possible to start it by typing the command:
+Pythonový tlumočník je obvykle instalován jako /usr/local/bin/python3.6 na těch strojích, kde je k dispozici; uvedení / usr / local / bin ve vyhledávací cestě shellu Unixu umožňuje spuštění příkazu zadáním příkazu:
 
 python3.6
 
-to the shell. [1] Since the choice of the directory where the interpreter lives is an installation option, other places are possible; check with your local Python guru or system administrator. (E.g., /usr/local/python is a popular alternative location.)
+do shellu. [1] Vzhledem k tomu, že volba adresáře, ve kterém žije tlumočník, je možnost instalace, jsou možná i jiná místa; obraťte se na místního guru nebo administrátora systému Python. (Například / usr / local / python je populární alternativní umístění.)
 
-On Windows machines, the Python installation is usually placed in C:\Python36, though you can change this when you’re running the installer. To add this directory to your path, you can type the following command into the command prompt in a DOS box:
+V systémech Windows je instalace Pythonu obvykle umístěna v C: \ Python36, ačkoli to můžete změnit při instalaci instalačního programu. Chcete-li přidat tento adresář do cesty, můžete do příkazového řádku zadejte do příkazového řádku následující příkaz:
 
-set path=%path%;C:\python36
-Typing an end-of-file character (Control-D on Unix, Control-Z on Windows) at the primary prompt causes the interpreter to exit with a zero exit status. If that doesn’t work, you can exit the interpreter by typing the following command: quit().
+nastavit cestu =% cesta%; C: \ python36
+Zadání znaku konce souboru (Control-D v systému Unix, Control-Z v systému Windows) v primární výzvě způsobí, že tlumočník ukončí stav nulového ukončení. Pokud to nefunguje, můžete ukončit interpret zadáním následujícího příkazu: quit ().
 
-The interpreter’s line-editing features include interactive editing, history substitution and code completion on systems that support readline. Perhaps the quickest check to see whether command line editing is supported is typing Control-P to the first Python prompt you get. If it beeps, you have command line editing; see Appendix Interactive Input Editing and History Substitution for an introduction to the keys. If nothing appears to happen, or if ^P is echoed, command line editing isn’t available; you’ll only be able to use backspace to remove characters from the current line.
+Funkce editace čáry tlumočníka zahrnují interaktivní úpravy, nahrazení historie a dokončení kódu v systémech, které podporují readline. Snad nejrychlejší kontrola, zda je podporována editace příkazového řádku, zadává příkaz Control-P k prvnímu příkazu Pythonu, který získáte. Pokud pípne, máte příkazovou úpravu; viz Příloha Interaktivní editaci vstupů a nahrazení historie pro úvod do kláves. Pokud se nezobrazí nic, nebo pokud se ozve ^ P, není k dispozici editace příkazového řádku; budete moci použít zpětný prostor pouze pro odstranění znaků z aktuálního řádku.
 
-The interpreter operates somewhat like the Unix shell: when called with standard input connected to a tty device, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and executes a script from that file.
+Tlumočník pracuje poněkud jako shell Unix: při volání se standardním vstupem připojeným k zařízení tty čte a provádí příkazy interaktivně; když je volán s argumentem názvu souboru nebo se standardním vstupem, čte a spustí skript z tohoto souboru.
 
-A second way of starting the interpreter is python -c command [arg] ..., which executes the statement(s) in command, analogous to the shell’s -c option. Since Python statements often contain spaces or other characters that are special to the shell, it is usually advised to quote command in its entirety with single quotes.
+Druhým způsobem, jak spustit tlumočníka, je příkaz python -c [arg] ..., který provede příkaz (y) ve příkazu, analogický s volbou -c shellu. Vzhledem k tomu, že příkazy Pythonu často obsahují mezery nebo jiné znaky, které jsou specifické pro shell, obvykle se doporučuje citovat celý příkaz pomocí jednoduchých uvozovek.
 
-Some Python modules are also useful as scripts. These can be invoked using python -m module [arg] ..., which executes the source file for module as if you had spelled out its full name on the command line.
+Některé moduly Pythonu jsou také užitečné jako skripty. Ty lze vyvolat pomocí modulu python -m [arg] ..., který spouští zdrojový soubor modulu, jako kdyby jste na příkazovém řádku napsali jeho celé jméno.
 
-When a script file is used, it is sometimes useful to be able to run the script and enter interactive mode afterwards. This can be done by passing -i before the script.
+Při použití souboru skriptu je někdy užitečné, aby byl skript spuštěn a následně mohl vstoupit do interaktivního režimu. To lze provést předáním příkazu -i před skriptem.
 
-All command line options are described in Command line and environment.
+Všechny příkazové řádky jsou popsány v příkazovém řádku a prostředí.

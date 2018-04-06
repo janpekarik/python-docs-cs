@@ -1,0 +1,3 @@
+Motivace
+Pokud hodně pracujete na počítači, časem přijdete na to, že některé úkony by bylo vhodné automatizovat. Například chcete najít a nahradit větší množství textových souborů, nebo přejmenovat a uspořádat spoustu fotek složitým způsobem. Možná byste chtěli napsat vlastní malou databázi, aplikaci s grafickým prostředím, nebo jednoduchou hru.
+Pokud jste profesionální softwarový vývojář, určitě pracujete s knihovnami C / C ++ / Java. Všimněte si ale, že obvyklý cyklus kódování › kompilace › testování › opětovná kompilace, je příliš pomalý. Třeba píšete zkušební sadu pro takovou knihovnu a zjistíte, že testovací kód je náročný úkol.

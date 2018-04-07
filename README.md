@@ -4,4 +4,4 @@ links:
 
 materials - https://docs.python.org/3/tutorial/index.html
 
-slack - pythondocscz.slack.com
+slack - https://pythondocscz.slack.com

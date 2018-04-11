@@ -1,12 +1,8 @@
 Pythoní interpretr je obvykle instalován v /usr/local/bin/python3.6 na těch strojích, kde je k dispozici; vložení /usr/local/bin ve vyhledávací cestě shellu Unixu umožňuje spuštění příkazu zadáním příkazu:
 
-python3.6
-
 do shellu. [1] Vzhledem k tomu, že volba adresáře, ve kterém se interpretr nachází, je možnost instalace, jsou možná i jiná místa; obraťte se na místního guru nebo administrátora systému Python. (Například /usr/local/python je populární alternativní umístění.)
 
 Ve Windows je Python obvykle umístěn v C:\Python36, ačkoli to můžete změnit při instalaci programu. Chcete-li přidat tento adresář do cesty, můžete do příkazového řádku zadejte do příkazového řádku následující příkaz:
-
-set path=%path%;C:\python36
 
 Zadání end-of-file znaku (Control-D v systému Unix, Control-Z ve Windows) v primárním prompt způsobí, že interpretr ukončí v nulevém stavu ukončení. Pokud nefunguje, můžete ukončit interpret zadáním následujícího příkazu: quit().
 

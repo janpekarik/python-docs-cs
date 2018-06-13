@@ -39,3 +39,8 @@ Toto je import stejným způsobem jako ``import fibo``, ale zpřístupní jej ja
 
 Tohoto lze také využít při využití :keyword:`from` s podobným efektem::
 
+Z důvodů efektivity se každý modul ukládá pouze jednou pro každý interpretr.
+Pokud tedz změníte své moduly, musíte restartovat interpretr, nebo, pokud se
+jedná o modul, který chcete testovat interaktivně, použijte :func:`importlib.reload`,
+příklad: ``import importlib; importlib.reload(jmeno_modulu)``.
+
